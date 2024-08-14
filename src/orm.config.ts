@@ -8,5 +8,5 @@ export const config: TypeOrmModuleOptions = {
   password: '',
   database: 'Test_api',
   entities: ['dist/**/*.entity{.ts,.js}'],
-  synchronize: true,
+  synchronize: false,
 };                      
